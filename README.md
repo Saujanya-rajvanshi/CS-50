@@ -51,4 +51,8 @@ int main(void){
 ```c
 node *list ; //points to a garbage value
 node *list = NULL; //points to an empty value
+node *n = malloc(sizeof(node)); //allocating space for node
+*n.number = 1; //putt element
+
+
 ```
