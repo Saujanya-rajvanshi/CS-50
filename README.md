@@ -54,5 +54,5 @@ node *list = NULL; //points to an empty value
 node *n = malloc(sizeof(node)); //allocating space for node
 *n.number = 1; //putt element
 n -> number = 1;
-
+n -> next = NULL ; //put next 
 ```
