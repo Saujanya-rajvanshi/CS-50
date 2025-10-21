@@ -47,3 +47,8 @@ int main(void){
     }
 }
 ```
+
+```c
+node *list ; //points to a garbage value
+node *list = NULL; //points to an empty value
+```
